@@ -1,0 +1,12 @@
+*::after,
+*::before,
+* {
+  box-sizing: border-box;
+}
+
+.stamp-box {
+  justify-content: center;
+  display: flex;
+  gap: .3em;
+  flex-flow: row wrap;
+}
