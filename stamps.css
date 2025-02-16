@@ -5,8 +5,11 @@
 }
 
 .stamp-box {
-  justify-content: center;
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  gap: .3em;
   flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
